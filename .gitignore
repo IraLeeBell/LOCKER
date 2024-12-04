@@ -1,0 +1,38 @@
+# Ignore the virtual environment directory
+venv-locker/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+
+# Ignore environment files
+.env
+.venv
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+
+# Ignore LOCKER specific files
+master_hash.key
+passwords.json
